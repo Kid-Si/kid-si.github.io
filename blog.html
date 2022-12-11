@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kidsi Dijital Ebeveyn</title>
+	<link rel="shortcut icon" href="img/translogo2.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $("#PP").hide("fast");
+            $("#BB").click(function () {
+                $("#PP").toggle("fast");
+            });
+        });
+    </script>
+
+
+</head>
+
+<style>
+    body {
+        text-align: center;
+    }
+
+    .head {
+        margin: 3%;
+       
+        background-color: rgb(148, 69, 197);
+    }
+
+    .a {
+        line-height: 1;
+        display: inline-block;
+        color: rgb(99, 99, 197);
+        text-decoration: none;
+    }
+
+    .a:after {
+        display: block;
+        content: "";
+        height: 2px;
+        width: 0%;
+        background-color: rgb(99, 99, 197);
+        transition: width .3s ease-in-out;
+    }
+
+    .a:hover:after,
+    .a:focus:after {
+        width: 100%;
+    }
+
+    .ornek {
+        width: 95%;
+        margin: auto;
+        color: rgb(148, 69, 197);
+    }
+
+    .sola-kaydir {
+        float: left;
+        padding: 0 10px 10px 0;
+    }
+
+    .saga-kaydir {
+        float: right;
+        padding: 0 10px 10px 0;
+    }
+
+    @media only screen and (min-width:300px) {
+
+        .resim {
+            width: 300px;
+            height: 200px;
+        }
+
+
+        #div1 {
+            width: 100%;
+            height: 200px;
+
+        }
+
+        #div2 {
+            width: 100%;
+            height: 200px;
+
+        }
+
+        #div3 {
+            width: 100%;
+            height: 200px;
+
+        }
+
+        .p {
+            margin-top: 80px;
+            font-size: 25px;
+        }
+
+        #aim {
+            font-size: 40px;
+        }
+
+        #aim2 {
+            font-size: 40px;
+        }
+
+        .linkler2 {
+            font-size: 8px;
+        }
+
+        .sola-kaydir {
+            width: 170px;
+            height: 100px;
+        }
+
+        .saga-kaydir {
+            width: 170px;
+            height: 100px;
+        }
+
+
+    }
+
+
+    @media only screen and (min-width:600px) {
+
+        .resim {
+            width: 540px;
+            height: 300px;
+        }
+
+        #div1 {
+            width: 100%;
+            height: 350px;
+
+        }
+
+        #div2 {
+            width: 100%;
+            height: 350px;
+
+        }
+
+        #div3 {
+            width: 100%;
+            height: 350px;
+
+        }
+
+        .p {
+            margin-top: 250px;
+            font-size: 30px;
+        }
+
+        #aim {
+            font-size: 55px;
+        }
+
+        #aim2 {
+            font-size: 55px;
+        }
+
+        .linkler2 {
+            font-size: 15px;
+        }
+
+        .sola-kaydir {
+            width: 220px;
+            height: 150px;
+        }
+
+        .saga-kaydir {
+            width: 220px;
+            height: 150px;
+        }
+
+
+
+    }
+
+    @media only screen and (min-width:1200px) {
+
+        .resim {
+            width: 750px;
+            height: 400px;
+        }
+
+
+        #div1 {
+            width: 100%;
+            height: 550px;
+
+        }
+
+        #div2 {
+            width: 100%;
+            height: 550px;
+
+        }
+
+        #div3 {
+            width: 100%;
+            height: 550px;
+
+        }
+
+        .p {
+            margin-top: 320px;
+            font-size: 50px;
+        }
+
+        #aim {
+            font-size: 65px;
+        }
+
+        #aim2 {
+            font-size: 65px;
+        }
+
+
+        .linkler2 {
+            font-size: 20px;
+        }
+
+        .sola-kaydir {
+            width: 270px;
+            height: 200px;
+        }
+
+        .saga-kaydir {
+            width: 270px;
+            height: 200px;
+        }
+
+
+
+    }
+</style>
+
+
+
+
+
+<body>
+
+
+    <header class="head">
+
+
+        <div style="text-align: center;" id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+
+            <div style="text-align: center;" class="carousel-inner">
+                <div id="div1" class="item active">
+                    <p class="p" style=" color:white ;text-align: center;">
+                        SİZİN VE ÇOCUKLARINIZ İÇİN EN İYİYİ HEDEFLERİZ
+                        <br>
+
+                        <i id="aim" class="fa-solid fa-crosshairs"></i>
+
+                    </p>
+                </div>
+
+                <div id="div2" class="item">
+                    <p class="p" style=" color:black; text-align: center;">
+                        KİDSİ DİJİTAL EBEVEYN
+                        <br><br>
+			<img style="width: 170px; height: 160px;" src="img/translogo2.png" alt="">
+                    </p>
+                </div>
+
+                <div id="div3" class="item">
+                    <p class="p" style=" color:white; text-align: center;">
+                        DİJİTAL ÇAĞDA EBEVEYN DOSTU
+                        <br>
+                        <i id="aim2" class="fa-solid fa-handshake"></i>
+                    </p>
+                </div>
+            </div>
+
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+
+    </header>
+
+
+    <div class="linkler2">
+
+        <a class="a" href="hakkimizda.html">Hakkında</a> &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a class="a" href="anasayfa.html">Anasayfa</a> &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a class="a" href="onlineRandevu.html">Online Randevu</a> &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a class="a" href="iletişim.html">İletişim</a> &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <i id="BB" class="fa fa-search" style="color: rgb(99, 99, 197);"></i>
+        <input id="PP" type="text" id="search" placeholder="Ara.."
+            style="border-color: rgb(99, 99, 197);">&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <i class="fa-brands fa-instagram style=" style="color: rgb(99, 99, 197);"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <i class="fa-brands fa-linkedin-in" style="color: rgb(99, 99, 197);"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <br><br>
+			<img style="width: 170px; height: 160px;" src="img/logo.png" alt="">
+    </div>
+    </p>
+
+
+    <br><br><br><br><br><br><br>
+
+    <img class="resim"
+        src="https://iasbh.tmgrup.com.tr/3406c6/752/395/553/0/1600/550?u=https://isbh.tmgrup.com.tr/sbh/2019/02/27/egitim-ve-teknolojinin-ebeveyn-ve-cocuklarla-bulustugu-zirve-1551259925404.jpg"
+        alt="Chicago" style=" margin-left: 40px;margin-right: 40px;">
+    <div>
+        <br><br><br><br><br><br><br>
+        <div class="ornek"><i>
+                <h2 style="text-align: center; color: rgb(99, 99, 197);"><b>KİDSİ Dijital Ebeveyn Farkı</b></h2>
+
+                <br><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, magnam. Nesciunt eveniet vel, illo
+                    tempora assumenda harum rerum aspernatur dolores expedita? Id nisi amet quaerat debitis distinctio
+                    tenetur iste aliquid!
+                    Molestiae voluptatibus sit nemo, facere ex accusamus accusantium inventore eius illo dolor corrupti
+                    ratione repudiandae quas voluptatem id velit, minus adipisci quia exercitationem delectus assumenda
+                    vero eaque, omnis expedita! Dolor.
+                    </p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat ullam accusantium
+                    repudiandae
+                    voluptatem quasi, harum sit quam optio veniam est nam reiciendis ea architecto cumque. Quibusdam
+                    atque
+                    veritatis modi.</p>
+
+                <br>
+                <img src="https://teknosafari.net/wp-content/uploads/2021/02/cocuklar-icin-faydali-olabilecek-mobil-uygulamalar.jpg"
+                    class="sola-kaydir" style="border-radius: 50%;">
+                <h5 style="text-align: center; color: rgb(99, 99, 197);"><b>Lorem, ipsum dolor.</b></h5>
+                <br>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium perspiciatis distinctio
+                    reiciendis
+                    dolorum sequi, non dolores. Repellendus illum, rem ea a rerum libero, ratione placeat quas neque,
+                    est in
+                    totam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cumque enim magnam molestiae
+                    ratione nisi culpa pariatur molestias a sed aspernatur voluptas soluta itaque quam minima odit,
+                    totam dicta labore.
+                </p>
+                <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen
+                    bir
+                    matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı
+                    1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca
+                    varlığını
+                    sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır.</p>
+                <p> 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda
+                    Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler
+                    olmuştur.
+                </p>
+
+                <br><br>
+
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium perspiciatis distinctio
+                    reiciendis
+                    dolorum sequi, non dolores. Repellendus illum, rem ea a rerum libero, ratione placeat quas neque,
+                    est in
+                    totam?
+                </p>
+                <br>
+                <img src="https://www.arcadium.com.tr/Blog/wp-content/uploads/2016/10/phonemal.jpg" 
+                class="saga-kaydir" style="border-radius: 50%;">
+                <h5 style="text-align: center; color: rgb(99, 99, 197);"><b>Lorem, ipsum dolor.</b></h5>
+                <br>
+                <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen
+                    bir
+                    matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı
+                    1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca
+                    varlığını
+                    sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır.</p>
+                <p> 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda
+                    Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler
+                    olmuştur.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolor vero quidem deleniti mollitia
+                    nemo doloremque ipsa commodi dolore, voluptates cupiditate expedita culpa doloribus eum veritatis
+                    modi porro officiis quam.
+                    Et doloremque consequuntur ipsam adipisci iusto veniam, repellat perspiciatis dolores incidunt
+                    tempore. Quidem illum quibusdam id vero maxime iusto at perferendis consectetur beatae. Provident
+                    harum sit sapiente voluptates fugit eum?
+                    Voluptates labore porro ipsa, deleniti aspernatur expedita non voluptate animi harum quos eveniet
+                    quo vel cupiditate, optio ad vitae excepturi, architecto obcaecati hic numquam dolores aliquid alias
+                    maiores. Minus, recusandae?</p>
+
+                <br><br>
+
+
+                <img src="https://mediatrend.mediamarkt.com.tr/wp-content/uploads/2019/10/mt_ekim_2019_okul_oncesi_cocuklar.jpg"
+                    class="sola-kaydir" style="border-radius: 50%;">
+                <h5 style="text-align: center; color: rgb(99, 99, 197);"><b>Lorem, ipsum dolor.</b></h5>
+                <br>
+                <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen
+                    bir
+                    matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı
+                    1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca
+                    varlığını
+                    sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır.</p>
+                <p> 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda
+                    Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler
+                    olmuştur.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quisquam nisi voluptatem consectetur
+                    aperiam facilis adipisci ullam labore. Voluptatum nisi in quis dicta ea minima vitae praesentium
+                    consequuntur qui eius!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nesciunt vel provident quo officia
+                    praesentium quos ab! Nihil voluptates saepe aperiam, numquam ea repellendus aliquam! Distinctio
+                    mollitia fuga delectus dolores.
+                    Nulla esse mollitia expedita, aliquam possimus suscipit voluptatum! Corporis veritatis adipisci
+                    blanditiis, quisquam, consectetur tempora alias ipsam modi labore, dignissimos numquam quod
+                    excepturi eveniet officia ratione fugiat explicabo suscipit. Odit?</p>
+
+            </i>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+
+    <footer style="height:5px ;">
+
+        <div style="height:2px ;">powered by &nbsp;&nbsp;&nbsp;&nbsp; <a href="#">Kidsi Original Team</a></div>
+
+
+    </footer>
+
+</body>
+
+</html>
