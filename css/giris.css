@@ -1,0 +1,120 @@
+.header {
+  background-color: #ffccff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #ffccff;
+  text-align: center;
+  padding: 10px;
+}
+
+.form {
+	width: 100%;
+}
+fieldset {
+	width: 75px;
+	border-color: purple;
+	border-radius: 5px;
+	color: purple;
+	margin-bottom: 15px;
+}
+
+label, a {
+	color: purple;
+}
+
+input[type=text], [type=password], [type=date], [type=tel] {
+	border: none;
+	border-bottom: 1px solid purple;
+	border-radius: 2px;
+	color: purple;
+}
+
+input[type=submit] {
+	background-color: purple;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 16px 70px;
+	cursor: pointer;
+}
+
+input[type="checkbox"] {
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: var(--form-background);
+	margin-bottom: 15px;
+	font: inherit;
+	color: currentColor;
+	width: 1.15em;
+	height: 1.15em;
+	border: 0.15em solid purple;
+	border-radius: 0.15em;
+	transform: translateY(-0.075em);
+	display: grid;
+	place-content: center;
+}
+
+input[type="checkbox"]::before {
+	content: "";
+	width: 0.65em;
+	height: 0.65em;
+	clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+	transform: scale(0);
+	transform-origin: bottom left;
+	transition: 120ms transform ease-in-out;
+	box-shadow: inset 1em 1em var(--form-control-color);
+	background-color: CanvasText;
+}
+
+input[type="checkbox"]:checked::before {
+	transform: scale(1);
+}
+
+input[type="checkbox"]:focus {
+	outline: max(2px, 0.15em) solid currentColor;
+	outline-offset: max(2px, 0.15em);
+}
+.chck {
+	font-size: 1rem;
+	line-height: 1.1;
+	display: grid;
+	grid-template-columns: 1em auto;
+	gap: 0.5em;
+}
+
+.chck + .chck {
+	margin-top: 1em;
+}
+
+#modalWindow {
+position: fixed;
+font-family: arial,helvetica, sans-serif;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: rgba(0, 0, 0, 0.4);
+z-index: 99999;
+opacity:0;
+transition: opacity 400ms linear;
+pointer-events: none;
+}
+#modalWindow:target {
+opacity:1;
+pointer-events: auto;
+}
+#modalWindow > div {
+width: 400px;
+height: 300px;
+position: relative;
+margin: 10% auto;
+padding: 20px 20px 13px 20px;
+border: solid;
+border-color: white;
+border-width : 2px;
+background: #ffccff;
+border-radius: 10px;
+}

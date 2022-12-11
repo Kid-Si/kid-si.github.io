@@ -1,1 +1,369 @@
+body {
+	text-align: center;
+}
 
+.a {
+	margin: 0px 15px 0px 15px;
+    line-height: 1;
+    display: inline-block;
+    color: rgb(99, 99, 197);
+    text-decoration: none;
+}
+
+.a:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: rgb(99, 99, 197);
+    transition: width .3s ease-in-out;
+}
+
+.a:hover:after, .a:focus:after {
+    width: 100%;
+}
+
+.baslik1 {
+	background-color: rgb(148, 69, 197);
+	margin-bottom: 15px;
+	color: red;
+}
+
+.divy {
+	color:rgb(164, 164, 206) ; 
+	text-align: center; 
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right: 15%;
+	padding-left: 15%;
+	background-color: rgb(148, 69, 197);
+	border-radius: 50%;
+}
+
+.head {
+    margin: 5%;
+    margin-top: 8%;
+    background-color: rgb(148, 69, 197);
+}
+
+.ornek {
+	text-align: justify;
+    width: 95%;
+    margin: auto;
+    color: rgb(148, 69, 197);
+}
+
+.saga-kaydir {
+    float: right;
+    padding: 0 10px 10px 0;
+}
+
+.sola-kaydir {
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+@media only screen and (min-width:300px) {
+
+    .resim {
+		width: 150px;
+		height: 85px;
+    }
+
+    .resimli {
+		font-size: 10px;
+    }
+
+    .linkler2 {
+		font-size: 8px;
+    }
+
+    .section-a li {
+		text-align: center;
+		width: 32%;
+		margin-right: 5%;
+		display: inline-block;
+		font-size: 12px;
+		color: rgb(99, 99, 197);
+    }
+
+    #section-a {
+		margin-right: 35px;
+    }
+
+    .baslik1 {
+		width: 100%;
+		height: 120px;
+    }
+
+    .baslik2 {
+		padding-top: 40px;
+		color: rgb(99, 99, 197);
+    }
+
+    .section-b li {
+		text-align: center;
+		width: 26%;
+		margin-right: 2%;
+		display: inline-block;
+		font-size: 12px;
+		color: rgb(99, 99, 197);
+    }
+
+    .section-c {
+		margin-right: 10px;
+    }
+
+    .section-c li {
+		width: 28%;
+		margin: 2%;
+		display: inline-block;
+        color: rgb(99, 99, 197);
+    }
+
+    .section-c {
+		font-size: 7px;
+		margin-right: 35px;
+    }
+    .p {
+		font-size: 10px;
+    }
+
+    .h_p {
+        margin-top: 80px;
+        font-size: 25px;
+    }
+
+    .col {
+		font-size: 15px;
+    }
+
+    #hand1, #hand2 {
+		font-size: 12px;
+    }
+
+    .col:hover {
+		font-size: 12px;
+    }
+
+    .hh11 {
+		font-size: 10px;
+    }
+
+    #sonyazi {
+		font-size: 12px;
+    }
+
+    .lili{
+		font-size: 7px;
+    }
+    .saga-kaydir, .sola-kaydir {
+        width: 170px;
+        height: 100px;
+    }
+	
+	#div1, #div2, #div3 {
+        width: 100%;
+        height: 200px;
+    }
+	
+	#aim, #aim2 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width:600px) {
+
+    .resim {
+		height: 180px;
+		width:  280px;
+    }
+
+    .resimli {
+		font-size: 25px;
+    }
+
+    .linkler2 {
+		font-size: 15px;
+    }
+
+    .section-a li {
+		text-align: center;
+		width: 30%;
+		margin: 1%;
+		display: inline-block;
+		font-size: 20px;
+		color: rgb(99, 99, 197);
+    }
+
+    .section-b li {
+		text-align: center;
+		width: 25%;
+		margin: 1%;
+		display: inline-block;
+		font-size: 15px;
+		color: rgb(99, 99, 197);
+    }
+
+    .section-c li {
+		text-align: center;
+		width: 28%;
+		margin: 1%;
+		display: inline-block;
+		color: rgb(99, 99, 197);
+    }
+	
+    .p {
+		font-size: 25px;
+    }
+
+	.h_p {
+        margin-top: 250px;
+        font-size: 30px;
+    }
+	
+    .cola, .colb, .colc {
+		font-size: 12px;
+    }
+
+    .baslik1 {
+		width: 100%;
+		height: 120px;
+    }
+
+    .baslik2 {
+		padding-top: 40px;
+		color: rgb(99, 99, 197);
+    }
+
+    .col {
+		font-size: 25px;
+    }
+
+    #hand1, #hand2 {
+		font-size: 25px;
+    }
+
+    .col:hover {
+		font-size: 20px;
+    }
+
+    .hh11 {
+		font-size: 25px;
+    }
+    .lili {
+		font-size: 12px;
+    }
+    
+	.saga-kaydir, .sola-kaydir {
+        width: 220px;
+        height: 150px;
+    }
+
+	#div1, #div2, #div3 {
+        width: 100%;
+        height: 350px;
+    }
+
+    #aim, #aim2 {
+        font-size: 55px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+
+    .resim {
+		height: 490px;
+		width: 650px;
+    }
+
+    .resimli {
+		font-size: 35px;
+    }
+
+    .linkler2 {
+		font-size: 20px;
+    }
+
+    .section-a li {
+		text-align: center;
+		width: 40%;
+		margin: 1%;
+		display: inline-block;
+		font-size: 45px;
+		color: rgb(99, 99, 197);
+    }
+
+    .section-c li {
+		text-align: center;
+		width: 28%;
+		margin: 1%;
+		display: inline-block;
+		font-size: 17px;
+		color: rgb(99, 99, 197);
+    }
+	
+    .section-b li {
+		text-align: center;
+		width: 28%;
+		margin: 1%;
+		display: inline-block;
+		font-size: 15px;
+		color: rgb(99, 99, 197);
+    }
+
+    .baslik1 { 
+		width: 100%;
+		height: 120px;
+    }
+
+    .baslik2 {
+		padding-top: 40px;
+		color: white;
+    }
+
+    .col {
+		font-size: 35px;
+    }
+	
+    #hand1, #hand2 {
+		font-size: 35px;
+    }
+	
+    .col:hover {
+		font-size: 25px;
+    }
+
+    .hh11 {
+		font-size: 35px;
+    }
+	
+    #sonyazi{
+		font-size: 45px;
+    }
+
+    .lili{
+		font-size: 20px;
+    }
+	
+    .saga-kaydir {
+        width: 270px;
+        height: 200px;
+    }
+	
+	#div1, #div2, #div3 {
+        width: 100%;
+        height: 550px;
+    }
+
+	.h_p {
+        margin-top: 320px;
+        font-size: 50px;
+    }
+	
+	#aim, #aim2 {
+        font-size: 65px;
+    }
+}
